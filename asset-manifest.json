@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lernov/static/css/main.9dcfd584.chunk.css",
+    "main.js": "/lernov/static/js/main.1e9fc5ce.chunk.js",
+    "main.js.map": "/lernov/static/js/main.1e9fc5ce.chunk.js.map",
+    "runtime-main.js": "/lernov/static/js/runtime-main.f1420df7.js",
+    "runtime-main.js.map": "/lernov/static/js/runtime-main.f1420df7.js.map",
+    "static/css/2.2a86faee.chunk.css": "/lernov/static/css/2.2a86faee.chunk.css",
+    "static/js/2.e8d3c9c8.chunk.js": "/lernov/static/js/2.e8d3c9c8.chunk.js",
+    "static/js/2.e8d3c9c8.chunk.js.map": "/lernov/static/js/2.e8d3c9c8.chunk.js.map",
+    "index.html": "/lernov/index.html",
+    "precache-manifest.e8088805dfa0aafa9e15a7dda1cc642f.js": "/lernov/precache-manifest.e8088805dfa0aafa9e15a7dda1cc642f.js",
+    "service-worker.js": "/lernov/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/lernov/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.9dcfd584.chunk.css.map": "/lernov/static/css/main.9dcfd584.chunk.css.map",
+    "static/js/2.e8d3c9c8.chunk.js.LICENSE.txt": "/lernov/static/js/2.e8d3c9c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1420df7.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.e8d3c9c8.chunk.js",
+    "static/css/main.9dcfd584.chunk.css",
+    "static/js/main.1e9fc5ce.chunk.js"
+  ]
+}
