@@ -1,0 +1,26 @@
+.fluid{
+    background-color: black;
+}
+a{
+    color: white;
+    transition-duration: 2s;
+}
+a:hover{
+    color: #afadad;
+    transition-delay: 10ms;
+    
+}
+.nav__Search{
+ border-radius: 999px;
+ flex:1;
+}
+.nav__right{
+    float: right;
+}
+.bg-dark{
+    background-color: black !important;
+}
+.sign-in{
+    color:white;
+    font-size: 18px;
+}
