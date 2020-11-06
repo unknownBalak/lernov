@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d197945add5325003f13e5efef13630",
+    "revision": "3d99df949e44c1577170314ebe5dd054",
     "url": "/lernov/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lernov/static/css/2.2a86faee.chunk.css"
   },
   {
-    "revision": "2230c2076deca4da7393",
+    "revision": "aa9a27a300c90b0b36f0",
     "url": "/lernov/static/css/main.65be8fca.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lernov/static/js/2.1b647c17.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2230c2076deca4da7393",
-    "url": "/lernov/static/js/main.ac7ae6c9.chunk.js"
+    "revision": "aa9a27a300c90b0b36f0",
+    "url": "/lernov/static/js/main.2a203e05.chunk.js"
   },
   {
     "revision": "c11af803932db243fb7f",
