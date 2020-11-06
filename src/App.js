@@ -17,13 +17,12 @@ function App() {
       <div className="main__content">
         <Header />
         <Switch>
-          <Route path="/lernov" exact component={Home} />
+          <Route path="/" exact component={Home} />
           <Route path="/Login" component={Login} />
           <Route path="/Registration" component={SignUp} />
           <Route path="/newevent" component={NewEvent} />
           <Route path="/form" component={signUpForm} />
           <Route path="/about" component={about} />
-          <Route component={ErrorPage} />
         </Switch>
       </div>
       <Footer />
