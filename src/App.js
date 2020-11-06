@@ -10,14 +10,14 @@ import SignUp from "./components/SignUp";
 import ErrorPage from "./components/ErrorPage";
 import NewEvent from "./components/NewEvent";
 import signUpForm from "./components/SignUpForm.jsx";
-import about from "./components/About.jsx";
+import about from "./components/about";
 function App() {
   return (
     <div className="App">
       <div className="main__content">
         <Header />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/lernov" exact component={Home} />
           <Route path="/Login" component={Login} />
           <Route path="/Registration" component={SignUp} />
           <Route path="/newevent" component={NewEvent} />
