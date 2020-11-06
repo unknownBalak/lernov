@@ -1,78 +1,57 @@
 import React, { Component } from 'react'
-import DoneIcon from '@material-ui/icons/Done';
-import ClearIcon from '@material-ui/icons/Clear';
 import { Container, Row , Col,Table } from 'react-bootstrap'
-
-import { Button } from '@material-ui/core';
+import Description from './Description'; 
 import './css/Home.css'
+import Cards from './Cards';
+import img1 from './resources/2.jpg'
+import img2 from './resources/3.jpg'
 class Home extends Component {
+    
     render() {
         return (
+            <>
+            <div>
+             <img className='background-img 'xs={12}  md={8} />
+               
+            </div>
         <Container>
             <Row className='home'>
-                <Col className='background-img 'xs={12}  md={8}>
-      <h3>Bootcamp Quality at 1/10 of the Cost</h3>
-       <p>Lernov is the world’s fastest, most efficient way to master the skills tech companies want.
-            100% online, part-time & self-paced.</p>
-            <Button className='bg__button'>Know More </Button>                    
+                <Col className='background-img1 'xs={12}  md={7}>
+   
+            {/* <Button className='bg__button'>Know More </Button>                     */}
                 </Col>
-                <Col className='lornov-feature'xs={12} md={4}>
-                       <Table striped bordered hover className='home__table' > 
-                       <thead>
-                           <tr className='table_tr row__header'>
-                              <td></td>
-                               <td className='table_td1'>Lernov</td>
-                               <td className='table_td2'>Others</td>
-                           </tr>
-                           </thead> 
-
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr>
-                          
-                          
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                           <tr className='table_tr'>
-                               <td className='table_td0'>Learn by Doing</td>
-                               <td className='table_td1'><DoneIcon /> </td>
-                               <td className='table_td2'><ClearIcon  /></td>
-                           </tr> 
-                          
-                       </Table>
+                <Col className='banner__info'xs={12} md={4}>
+    <h4>Our primary vision is <strong style={{color:"black"}} >Education to Everyone </strong> and we as a StartUp
+are keen to provide a core concept with webinar and live workshops. 
+We choose students to give them world-class facilities. </h4>
+       <p>We believe in <strong>Lerning By Doing</strong>. And we as a eduTech StartUp believe in this Slogan.   </p>
                 </Col>
             </Row>
         </Container>
+
+
+<Container className=' lernov__events' id='events'> 
+     <h1  >Our Events </h1>
+<div className='lernov__card'>
+  <Cards src={img1}/>   
+   <Cards src={img2}/>   
+   <Cards src={img1}/>  
+   <Cards src={img2}/>  
+    </div>
+    </Container>
+<Container className=' lernov__instructor'> 
+     <h1  >Our Instructor </h1>
+<div className='lernov__card'>
+  <Cards src={img1}/>   
+   <Cards src={img1}/>   
+   <Cards src={img1}/>  
+   <Cards src={img1}/>  
+    </div>
+
+     <Description />
+    </Container>
+
+</>
         )
     }
 }

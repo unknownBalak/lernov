@@ -1,36 +1,34 @@
-import React, { Component } from 'react'
-import { Nav,Form,NavDropdown,Navbar, FormControl, Button } from 'react-bootstrap'
-import AccountCircleIcon from '@material-ui/icons/AccountCircle';
-import PersonIcon from '@material-ui/icons/Person';
-import 'bootstrap/dist/css/bootstrap.min.css'
-
-import './css/Nav.css'
-class Header extends Component {
-    render() {
-        return (
-            <div className='fluid'>
- <div className='container'>
- <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">Lernov</Navbar.Brand>
-  <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-  <Navbar.Collapse id="responsive-navbar-nav">
-    <Nav className="mr-auto">
-      <Nav.Link href="#features">Why Us</Nav.Link>
-    </Nav>
-    <Nav>
-      <Nav.Link href="#">
-          <AccountCircleIcon className='sign-in' /> Sign-in</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-          <PersonIcon className='sign-in'/>
-        Sign-Up
-      </Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-</div>
-</div>
-        )
-    }
+import React, { Component, useState } from "react";
+import { Button } from "react-bootstrap";
+import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+// import PersonIcon from "@material-ui/icons/Person";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
+import { HashLink  } from 'react-router-hash-link';
+import "./css/Nav.css";
+import SignUp from "./SignUp";
+import logo from './resources/logo.jpeg'
+function Header() {
+  const [login, showLogin] = useState(false);
+  return (
+    <div className="nav">
+      <div className="nav__brand">
+        <Link to="/">
+          <img src ={logo} alt='lernov_logo' width="50px" height="50px" />
+        </Link>
+      </div>
+      <div className="nav__right">
+        <ul>
+        <HashLink smooth to='#events'>  <li>New Events</li>
+        </HashLink>
+          <li>
+            {" "}
+            <p onClick={() => showLogin(!login)}>{!login ? <p>Registraiton</p>:  <Button>Close Form</Button>}</p>
+            {login && <SignUp /> }
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
 }
-export default Header
-
+export default Header;
