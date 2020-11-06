@@ -1,6 +1,6 @@
 {
   "name": "lernov",
-  "homepage": "https://unknownbalak.github.io/lernov/",
+  "homepage": "https://unknownbalak.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
+    "gh-pages": "^3.1.0",
     "react": "^16.14.0",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^16.14.0",
