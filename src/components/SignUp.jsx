@@ -1,7 +1,7 @@
-import React, { Component, useEffect, useState } from "react";
+import React from "react";
 import { useForm } from "react-hook-form";
 import axios from './axios'
-import { Button, Col, Container, Form } from "react-bootstrap";
+import { Button, Container, Form } from "react-bootstrap";
 import './css/SignUp.css';
 
 function SignUp() {

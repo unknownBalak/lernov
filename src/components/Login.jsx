@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Container, Form, Col, Row } from 'react-bootstrap'
+import { Container, Form } from 'react-bootstrap'
 import './css/Login.css';
 import { Button } from '@material-ui/core';
 class Login extends Component {

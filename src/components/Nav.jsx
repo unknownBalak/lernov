@@ -1,6 +1,5 @@
-import React, { Component, useState } from "react";
+import React, {  useState } from "react";
 import { Button } from "react-bootstrap";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 // import PersonIcon from "@material-ui/icons/Person";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
@@ -23,7 +22,7 @@ function Header() {
         </HashLink>
           <li>
             {" "}
-            <p onClick={() => showLogin(!login)}>{!login ? <p>Registraiton</p>:  <Button>Close Form</Button>}</p>
+            <div onClick={() => showLogin(!login)}>{!login ? <p>Registraiton</p>:  <Button>Close Form</Button>}</div>
             {login && <SignUp /> }
           </li>
         </ul>

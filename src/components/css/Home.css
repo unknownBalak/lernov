@@ -7,13 +7,11 @@
   justify-content: space-between;
 }
 .background-img {
-  height: 600px;
-  background-image: url("../resources/1\(headway\).jpg");
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  margin: auto;
+  width: 100vw;
 }
 .background-img1 {
   height: 300px;
@@ -25,7 +23,6 @@
   margin: auto;
 }
 .banner__info {
-  /* max-width: 30vw; */
   color: rgb(159, 163, 154);
   box-shadow: 5px 8px 8px 0px #ccc2c2;
   margin-bottom: 20px;
