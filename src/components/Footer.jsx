@@ -28,7 +28,7 @@ export class Footer extends Component {
                  
                  </Row>
         <Row className='social__link'>
-          <p> <span><a href='https://www.instagram.com/' rel="noreferrer" target="_blank"> <img src={instagram} alt='insta_logo' width="30px" height="30px" /> </a> </span> <span><a href='https://www.instagram.com/' target="_blank" rel="noreferrer" > <img src={twitter}  width="30px" height="30px"/> </a> </span><span><a href='https://www.instagram.com/' target="_blank" rel="noreferrer" > <img src={linkedIn}  width="30px" height="30px"/> </a> </span>  </p>
+          <p> <span><a href='https://www.instagram.com/' rel="noreferrer" target="_blank"> <img src={instagram} alt='insta_logo' width="30px" height="30px" /> </a> </span> <span><a href='https://www.instagram.com/' target="_blank" rel="noreferrer" > <img src={twitter}  width="30px" height="30px" alt="insta-logo"/> </a> </span><span><a href='https://www.instagram.com/' target="_blank" rel="noreferrer" > <img src={linkedIn}  width="30px" height="30px" alt="insta-logo"/> </a> </span>  </p>
 
         </Row>
         </div>
