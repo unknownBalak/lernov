@@ -1,14 +1,14 @@
-import React, {  useState } from "react";
-import { Button } from "react-bootstrap";
+import React  from "react";
+// import { Button } from "react-bootstrap";
 // import PersonIcon from "@material-ui/icons/Person";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import { HashLink  } from 'react-router-hash-link';
 import "./css/Nav.css";
-import SignUp from "./SignUp";
+// import SignUp from "./SignUp";
 import logo from './resources/logo.jpeg'
 function Header() {
-  const [login, showLogin] = useState(false);
+  // const [login, showLogin] = useState(false);
   return (
     <div className="nav">
       <div className="nav__brand">
@@ -20,11 +20,13 @@ function Header() {
         <ul>
         <HashLink smooth to='#events'>  <li>New Events</li>
         </HashLink>
-          <li>
+        <Link to='about'>  <li>About us</li>
+        </Link>
+          {/* <li>
             {" "}
             <div onClick={() => showLogin(!login)}>{!login ? <p>Registraiton</p>:  <Button>Close Form</Button>}</div>
             {login && <SignUp /> }
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

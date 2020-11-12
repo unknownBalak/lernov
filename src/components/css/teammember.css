@@ -1,0 +1,15 @@
+.teambox{
+    background-color: gray;
+}
+.teambox>.email{
+ color: rgb(244, 247, 81);
+ font-size: 15px;
+}
+.teambox>h3{
+    color:rgb(255, 145, 0);
+ font-weight: bolder;
+  background-color: rebeccapurple;
+  padding:20px;
+  border-radius: 100%;
+  text-align: center;
+}
