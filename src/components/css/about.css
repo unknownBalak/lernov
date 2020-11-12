@@ -8,9 +8,7 @@
   transition: 3s;
   margin-bottom: 30px;
 }
-.about>h1:hover{
-  font-size: 100px;
-}
+
 a {
   color: black !important;
 }
